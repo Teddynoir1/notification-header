@@ -25,13 +25,25 @@
     display: none;
 }
 
-.notification-links{
+.notification-links a {
     color: rgba(39, 118, 234, 1);
 }
 
-.notification-links:active {
-    color: #fff !important;
+.notification-links a:hover {
+   background-color: none !important;
 }
+
+.notification-links a:active {
+    color: #fff !important;
+    background-color: rgba(39, 118, 234, 1) !important;
+}
+
+.notification-links:hover {
+
+    background-color: #e9ecef;;
+}
+
+
 
 @media (max-width: 992px) {
     .mobile {
