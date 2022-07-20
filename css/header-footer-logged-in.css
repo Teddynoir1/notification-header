@@ -25,6 +25,14 @@
     display: none;
 }
 
+.notification-links{
+    color: rgba(39, 118, 234, 1);
+}
+
+.notification-links:active {
+    color: #fff !important;
+}
+
 @media (max-width: 992px) {
     .mobile {
         display: block;
