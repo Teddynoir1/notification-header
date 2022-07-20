@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://use.fontawesome.com/200824d22d.js"></script>
     <title>Contact Us</title>
 </head>
 <body>
@@ -31,10 +33,10 @@
                     <a class="nav-link ms-lg-4" href="recruit.html">Recruits</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link ms-lg-2 active" aria-current="page" href="index.html">About us</a>
+                    <a class="nav-link ms-lg-2" href="index.html">About us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link ms-lg-2" href="contact-page-logged.html">Contact</a>
+                    <a class="nav-link ms-lg-2 active" aria-current="page" href="contact-page-logged.html">Contact</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link ms-lg-2" href="blog-login.html">Blog</a>
@@ -42,18 +44,26 @@
                 </ul>
                 <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                      <a class="nav-link me-lg-2" href="message.html">Message<i class="bi bi-chat-text-fill text-white ms-2"></i></a>
-                    </li>
-                    <li class="nav-item position-relative dropdown">
-                      <a class="nav-link me-lg-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Notification<i class="bi bi-bell-fill text-white ms-2"><span class="position-absolute translate-middle badge border border-light rounded-circle bg-danger" style="margin-top: 6px; margin-left: -3px; padding: 5px;"><span class="visually-hidden">unread messages</span></span></i></a>
-
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item bi bi-chat-text-fill text-primary" href="message.html"> &nbsp; You have 2 new messages</a></li>
-                        <li><a class="dropdown-item bi bi-person text-primary" href="recruit.html"> &nbsp; 3 new recruits was added</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item bi bi-person-circle text-primary" href="blog-login.html"> &nbsp;New blog updates</a></li>
-                      </ul>
-                    </li>
+                        <a class="nav-link me-lg-2" href="message.html">Message<i class="bi bi-chat-text-fill text-white ms-2"></i></a>
+                      </li>
+                      <li class="nav-item position-relative dropdown">
+                        <a class="nav-link me-lg-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Notification<i class="bi bi-bell-fill text-white ms-2"><span class="position-absolute translate-middle badge border border-light rounded-circle bg-danger" style="margin-top: 6px; margin-left: -3px; padding: 5px;"><span class="visually-hidden">unread messages</span></span></i></a>
+  
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li class="d-flex ps-3 notification-links">
+                            <i class="bi bi-chat-dots iconz mt-1 text-primary"></i>
+                              <a class="dropdown-item text-primary" href="message.html"> You have 2 new messages</a>
+                            </li>
+                          <li class="d-flex ps-3 notification-links">
+                            <i class="bi bi-person iconz mt-1 text-primary"></i>
+                            <a class="dropdown-item text-primary" href="recruit.html"> 3 new recruits were added</a>
+                          </li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li class="d-flex ps-3 notification-links">
+                            <i class='fa-solid fa-blog iconz text-primary mt-2'></i>
+                              <a class="dropdown-item text-primary" href="blog-login.html"> New blog updates</a>
+                            </li>
+                        </ul>
                     <li class="nav-item">
                       <a class="nav-link me-lg-2" href="profile-page.html">Profile<i class="bi bi-person-circle text-white ms-2"></i></a>
                     </li>
